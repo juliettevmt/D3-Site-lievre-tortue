@@ -1,0 +1,43 @@
+body {
+background: rgb(28, 167, 169);
+}
+
+
+section{
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  min-height: 30vh
+}
+
+
+#section01{
+  background: url('images/image01.jpg')no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section01 h1{
+  color: rgb(4, 139, 154);
+  font-size: 8em;
+  text-align: center;
+  justify-content: center;
+}
+
+#section02 h2{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-spacing: 3px;
+  }
+
+nav {
+  width: 100%;
+}
